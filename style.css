@@ -82,6 +82,8 @@ body {
     max-width: 540px;
     padding: 1.8rem;
     border-radius: 0.4rem;
+    box-shadow: rgba(17, 12, 46, 0.15) 
+    1px 48px 100px 1px;
 }
 
 .card .name-badge {
