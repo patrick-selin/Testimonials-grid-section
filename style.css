@@ -88,7 +88,6 @@ body {
     /* min-width: 255px; */
     max-width: 540px;
     padding: 1.8rem;
-    border: 1px solid black;
     border-radius: 0.4rem;
 }
 .card .name-badge {
@@ -115,20 +114,14 @@ body {
 }
 
 
-
-
 .card-guote p {
     color: var(--light-gray-quote);
 }
-
-
 
 .card .verified {
     font-size: 12px;
     font-weight: 500;
 }
-
-
 
 .card-header{
     display: flex;
@@ -137,8 +130,17 @@ body {
 
 .testimonial-1 {
     background-color: var(--violet);
-
+    position: relative;
     grid-column: 1 / 3;
+}
+
+.quote-img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 5rem;
+    height: 5rem;
+
 }
 
 .testimonial-2 {
@@ -166,6 +168,10 @@ body {
     color: var(--gray-blue)
 }
 
+.testimonial-3 h2,
+.testimonial-5 h2 {
+    color: var(--gray-blue)
+}
 
 .testimonial-3 h3,
 .testimonial-5 h3 {
@@ -173,25 +179,22 @@ body {
 }
 
 .verified {
-    color: var(--light-gray-veri)
+    color: var(--light-gray-veri);
 }
-
-/* .dark {
-    color:red;
-} */
 
 
 @media (max-width: 800px) {
     body {
-        background-color: bisque;
-        /* display: inline; */
         max-width: 800px;
         margin: 0 auto;
-        
+        align-items: flex-start;        
     }
+    
     .grid-container {
         grid-template-columns: 1fr;
         width: 100%;
+        margin-top: 5rem;
+        padding-bottom: 5rem;
     
     }
 
