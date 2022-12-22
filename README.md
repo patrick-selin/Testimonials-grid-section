@@ -19,4 +19,3 @@
 - Media Query
 - CSS Grid
 - Flexbox
-- Mobile first design
