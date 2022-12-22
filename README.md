@@ -4,7 +4,7 @@
 
 ### Screenshot
 
-![solution](https://)
+![solution](https://github.com/patrick-selin/Testimonials-grid-section/blob/main/images/Testimonials%20Grid%20Section%20solution.png)
 
 ### Links
 
